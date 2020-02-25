@@ -1,0 +1,9 @@
+[sku_list]
+#RE#N###data-sku="(\d+)"
+
+[this_page]
+#HTML#//div[@id="J_topPage"]/span[@class="fp-text"]/b/text()
+
+[all_page]
+#HTML#//div[@id="J_topPage"]/span[@class="fp-text"]/i/text()
+

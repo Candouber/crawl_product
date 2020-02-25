@@ -1,0 +1,14 @@
+[description]
+#JSON#ads/*/ad
+
+[pick_one]
+#JSON#prom/pickOneTag
+
+[tags]
+#JSON#prom/tags
+
+[gift_pool]
+#JSON#prom/giftPool
+
+[sku_coupon]
+#JSON#skuCoupon

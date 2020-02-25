@@ -1,0 +1,17 @@
+[coupon_batch_id]
+#JSON#?tbk_coupon_convert_response/result/results/?category_id
+
+[coupon_url]
+#JSON#?tbk_coupon_convert_response/result/results/?coupon_click_url
+
+[coupon_to_url]
+#JSON#?tbk_coupon_convert_response/result/results/?coupon_click_url
+
+[coupon_info]
+#JSON#?tbk_coupon_convert_response/result/results/?coupon_info
+
+[start_time]
+#JSON#?tbk_coupon_convert_response/result/results/?coupon_start_time
+
+[end_time]
+#JSON#?tbk_coupon_convert_response/result/results/?coupon_end_time

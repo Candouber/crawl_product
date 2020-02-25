@@ -1,0 +1,38 @@
+[title]
+#HTML#?//h1[@id='title']/span/text()
+
+[thirdpart_flag]
+#HTML#?//div[@class='badge-wrapper ']/i/text()
+
+[original_price]
+#HTML#?//td[@class='a-span12 a-color-secondary a-size-base']/span/text()
+
+[platform_price]
+#HTML#?//td[@class='a-span12']/span/text()
+
+[quantity_all]
+#HTML#?//div[@class='a-section a-spacing-micro']/span[@id='ddmAvailabilityMessage']/span[@class='a-color-success ddm-font-size-15']/text()
+
+[hwg_item]
+#HTML#?//div[@class='a-row a-spacing-mini a-spacing-top-mini']/img/@alt
+
+[brand]
+#HTML#?//div[@class='a-section a-spacing-none']/a/text()
+
+[comments_count]
+#HTML#?//div[@id='averageCustomerReviews']/a/span/text()
+
+[property_map]
+#RE#N###?"dimensionValuesDisplayData" : {(.*?)}
+
+[cat_name]
+#HTML#?//div[@id='wayfinding-breadcrumbs_feature_div']/ul/li/span/a/text()
+
+[spec_param]
+#HTML#?//div[@class='section techD']/div[@class='content pdClearfix']/div/div/table/tbody/tr/td/text()
+
+[detail]
+#HTML#?//div[@id='productDescription']/p/text()
+
+[img_urls]
+#HTML#?//div[@id='altImages']/ul[@class='a-unordered-list a-nostyle a-button-list a-vertical a-spacing-top-micro']/li/span/span/span/span/span/img/@src

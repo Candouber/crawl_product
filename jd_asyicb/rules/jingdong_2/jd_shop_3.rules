@@ -1,0 +1,8 @@
+[page_info]
+#RE#N##S#(<div .*), moduleInstanc
+#RE#N##S#(<span>上一页.*?下一页</a>)
+#HTML#//a/text()
+
+[sku_list]
+#RE#N###item.jd.com.*?(\d+).html
+

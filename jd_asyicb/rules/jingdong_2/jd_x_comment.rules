@@ -1,0 +1,16 @@
+[comments_count_good]
+#RE#N###"GoodCount":(\d+)
+
+[comments_count_middle]
+#RE#N###"GeneralCount":(\d+)
+
+[comments_count_poor]
+#RE#N###"PoorCount":(\d+)
+
+[comments_count]
+#RE#N###"CommentCount":(\d+)
+
+[comments_goods_rate]
+#RE#N###"GoodRate":(\d.\d+)
+
+

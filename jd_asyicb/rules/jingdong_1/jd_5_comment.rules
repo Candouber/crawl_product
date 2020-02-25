@@ -1,0 +1,6 @@
+[comments_count]
+#JSON#jd_kpl_open_item_querycommentinfoyskus_response/result/*/commentCount
+
+
+[comments_goods_rate]
+#JSON#jd_kpl_open_item_querycommentinfoyskus_response/result/*/goodRate

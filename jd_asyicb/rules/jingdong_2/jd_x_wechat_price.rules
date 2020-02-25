@@ -1,0 +1,2 @@
+[wechat_price]
+#RE#N##S#"price"\s?:\s?{.*?"p":"(.*?)"

@@ -1,0 +1,86 @@
+[property_map]
+#RE#N###colorSize: \[.*?\],
+#RE#N###{.*?}
+
+[img_urls]
+#HTML#//div[@id="spec-list"]/ul/li/img/@src
+
+[shop_desc_score]
+#HTML#//div[@id="popbox"]//div[@class="mc"]//div[@class="score-sum"]/span/text()
+
+[shop_service_score]
+#HTML#//div[@id="popbox"]//div[@class="mc"]//div[@class="score-part"]/span[contains(text(),"服务态度")]/following-sibling::span[@class="score-detail"]/em/text()
+
+[shop_logistics_score]
+#HTML#//div[@id="popbox"]//div[@class="mc"]//div[@class="score-part"]/span[contains(text(),"物流速度")]/following-sibling::span[@class="score-detail"]/em/text()
+
+[item_description_score]
+#HTML#//div[@id="popbox"]//div[@class="mc"]//div[@class="score-part"]/span[contains(text(),"商品评价")]/following-sibling::span[@class="score-detail"]/em/text()
+
+[shop_id]
+#RE#N###shopId:'(\d+)'
+
+[shop]
+#HTML#//div[@class="J-hove-wrap EDropdown fr"]/div[@class="item"]/div[@class="name"]/a/@title
+
+[shop_url]
+#HTML#//div[@class="J-hove-wrap EDropdown fr"]/div[@class="item"]/div[@class="name"]/a/@href
+
+[brand_name]
+#HTML#//ul[@id="parameter-brand"]/li[1]/@title
+
+
+[thirdpart_flag]
+#HTML#//em[@class="u-jd"]/text()
+
+[spec_param]
+#HTML#//div[@class="p-parameter"]/ul[@class="parameter2 p-parameter-list"]//*/text()
+
+[spec_param_extra]
+#HTML#//div[@class="p-parameter"]/ul[@class="parameter1 p-parameter-list"]//p/text()
+
+[title]
+#HTML#//img[@id="spec-img"]/@alt
+
+[cat]
+#RE#N###cat: \[(.*?)\]
+
+[cat3_id]
+#RE#N###catId=(\d+)
+
+[vender_id]
+#RE#N###venderId:(\d+)
+
+[start_sale_qty]
+#HTML#//input[@id="buy-num"]/@value
+
+[main_skuid]
+#RE#N###mainSkuId.*?(\d+)
+
+[vid]
+#RE#N###"mainVideoId":"(\d+)"
+
+[brand_id]
+#RE#N###brand: (\d+)
+
+[cat_name_1]
+#HTML#//div[@id="crumb-wrap"]/div[@class="w"]/div[@class="crumb fl clearfix"]/div[1]/a/text()
+
+[cat_name_2]
+#HTML#//div[@id="crumb-wrap"]/div[@class="w"]/div[@class="crumb fl clearfix"]/div[3]/a/text()
+
+[cat_name_3]
+#HTML#//div[@id="crumb-wrap"]/div[@class="w"]/div[@class="crumb fl clearfix"]/div[5]/a/text()
+
+[shop_desc_score2]
+#HTML#//div[@class="pop-head"]/div[@class="star"]/em/span/@title
+
+[shop_service_score2]
+#HTML#//div[@class="pop-score-detail"]/a/div[contains(text(),"服务态度")]/following-sibling::div[@class="score-detail"]/em/text()
+
+[shop_logistics_score2]
+#HTML#//div[@class="pop-score-detail"]/a/div[contains(text(),"物流速度")]/following-sibling::div[@class="score-detail"]/em/text()
+
+[item_description_score2]
+#HTML#//div[@class="pop-score-detail"]/a/div[contains(text(),"商品评价")]/following-sibling::div[@class="score-detail"]/em/text()
+

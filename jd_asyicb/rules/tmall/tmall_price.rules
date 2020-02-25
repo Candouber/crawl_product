@@ -1,0 +1,15 @@
+[price_info]
+#JSON#defaultModel/itemPriceResultDO/priceInfo
+
+[promotion]
+#JSON#defaultModel/itemPriceResultDO/tmallShopProm
+
+[sku_quantity]
+#JSON#defaultModel/inventoryDO/skuQuantity
+
+[sales_count_monthly]
+#JSON#defaultModel/?sellCountDO/?sellCount
+
+[item_quantity]
+#JSON#defaultModel/inventoryDO/icTotalQuantity
+

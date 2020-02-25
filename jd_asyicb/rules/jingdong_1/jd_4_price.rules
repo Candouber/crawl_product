@@ -1,0 +1,6 @@
+[price]
+#JSON#jingdong_ware_p_price_get_responce/skuPriceList/*/p
+
+
+[vip_price]
+#JSON#jingdong_ware_p_price_get_responce/skuPriceList/*/?tpp

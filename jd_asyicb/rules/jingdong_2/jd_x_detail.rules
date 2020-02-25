@@ -1,0 +1,4 @@
+[detail]
+#JSON#content
+#RE#N###//\S+.360buyimg.com.*?\.\w{3}
+

@@ -1,0 +1,17 @@
+[original_price]
+#JSON#stock/jdPrice/op
+
+[platform_price]
+#JSON#stock/jdPrice/p
+
+[vip_price]
+#RE#N###tpp":"(\S+?)"
+
+[quantity_has]
+#JSON#stock/StockStateName
+
+[fan_price]
+#RE#N###"sfp":"(\S+?)"
+
+[priceTip]
+#JSON#stock/support
